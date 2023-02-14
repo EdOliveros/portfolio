@@ -6,7 +6,7 @@ const Menu = () => {
     <footer>
         <style>{`
             footer {
-                position: absolute;
+                position: fixed;
                 top: 0;
                 padding: 10px;
                 width: 100%;
@@ -18,6 +18,12 @@ const Menu = () => {
             footer h1 {
                 font-weight: 300;
                 font-size: 14px;
+            }
+            @media (max-width: 600px) {
+              // footer {
+              //   height: auto;
+              //   padding: 0;
+              // }
             }
         `}</style>
         <h1>

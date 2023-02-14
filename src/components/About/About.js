@@ -20,7 +20,7 @@ const About = () => {
                 </div>
                 <div>
                     <p className="etiquetas">&lt;p&gt;</p>
-                    <p  className="info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt perspiciatis deserunt laudantium, quam error, libero veniam fugit cupiditate nobis quia aliquam laborum velit explicabo sit. Tempora vitae et consequatur nulla!</p>
+                    <p  className="info">I have a background in design, illustration, and communications, and I am currently studying full-stack development with a focus on HTML, CSS, JS, React, and Next. My unique skillset allows me to apply technical development skills while also keeping the UX/UI perspective in mind. I am skilled at conveying technical information in a way that is easy to understand for users of all levels.</p>
                     <p className="etiquetas">&lt;/p&gt;</p>
                 </div>
             </div>
@@ -53,8 +53,7 @@ const About = () => {
         }
         @media (max-width: 600px) {
             .home {
-                flex-direction: column;
-                margin: 100px 20px;
+                margin: 0px 20px;
             }
             .info {
                 width: 200px;
