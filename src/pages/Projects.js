@@ -1,7 +1,7 @@
 import React from 'react'
-import juego from '../../public/13.png'
-import arch from '../../public/14.png'
-import quotes from '../../public/15.png'
+import juego from '@public/13.png'
+import arch from '@public/14.png'
+import quotes from '@public/15.png'
 import Link from 'next/link'
 import Image from 'next/image'
 

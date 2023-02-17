@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import ocho from '../../public/8.png'
-import siete from '../../public/7.png'
-import diez from '../../public/10.png'
-import once from '../../public/11.png'
-import cinco from '../../public/5.png'
-import seis from '../../public/6.png'
-import nueve from '../../public/9.png'
+import ocho from '@public/8.png'
+import siete from '@public/7.png'
+import diez from '@public/10.png'
+import once from '@public/11.png'
+import cinco from '@public/5.png'
+import seis from '@public/6.png'
+import nueve from '@public/9.png'
 
 const stilo = {
   width: '60px',
