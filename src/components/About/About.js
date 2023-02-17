@@ -1,16 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
-import logo from "@public/12.png"
+
+const logo = "https://i.postimg.cc/43CDx2C0/12.png"
+
 
 const About = () => {
   return (
     <div>
         <div className="home">
             <figure>
-                <Image style={{
-                    width: '150px',
-                    height: 'auto',
-                }} className="img" src={logo} alt=""></Image>
+                <Image width={150} height={200} className="img" src={logo} alt="img"></Image>
             </figure>
             <div className="info-container">
                 <div>

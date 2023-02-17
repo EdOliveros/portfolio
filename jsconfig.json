@@ -3,8 +3,6 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["../portfolio/*"],
-      "@public/*": ["../portfolio/public/*"],
-      "@components/*": ["../portfolio/src/components/*"],
     }
   }
 }

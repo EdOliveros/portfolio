@@ -1,16 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
-import ocho from '@public/8.png'
-import siete from '@public/7.png'
-import diez from '@public/10.png'
-import once from '@public/11.png'
-import cinco from '@public/5.png'
-import seis from '@public/6.png'
-import nueve from '@public/9.png'
+const ocho = 'https://i.postimg.cc/5tvvv3PT/8.png'
+const siete = 'https://i.postimg.cc/tTkzZkJy/7.png'
+const diez = 'https://i.postimg.cc/BvG5mk14/10.png'
+const once = 'https://i.postimg.cc/G2Xkhpgm/11.png'
+const cinco = 'https://i.postimg.cc/vmM9rnpm/5.png'
+const seis = 'https://i.postimg.cc/x1VbQHjP/6.png'
+const nueve = 'https://i.postimg.cc/QVGVXGDM/9.png'
 
 const stilo = {
-  width: '60px',
-  height: 'auto',
   marginBottom: '15px',
 }
 
@@ -20,27 +18,27 @@ const Skills = () => {
       <div className="skills-container">
         <div className="vertical">
             <figure>
-                <Image style={stilo} src={ocho}></Image>
+                <Image style={stilo} width={60} height={35} src={ocho}></Image>
             </figure>
             <figure>
-                <Image style={stilo} src={siete} alt="logo"></Image>
+                <Image style={stilo} width={60} height={35} src={siete} alt="logo"></Image>
             </figure>
             <figure>
-                <Image style={stilo}  src={diez} alt="logo"></Image>
+                <Image style={stilo} width={60} height={35} src={diez} alt="logo"></Image>
             </figure>
             <figure>
-                <Image style={stilo}  src={once} alt="logo"></Image>
+                <Image style={stilo} width={60} height={35} src={once} alt="logo"></Image>
             </figure>
         </div>
         <div className="horizontal">
             <figure>
-                <Image style={stilo}  src={cinco} alt="logo"></Image>
+                <Image style={stilo} width={60} height={35} src={cinco} alt="logo"></Image>
             </figure>
             <figure>
-                <Image style={stilo}  src={seis} alt="logo"></Image>
+                <Image style={stilo} width={60} height={35} src={seis} alt="logo"></Image>
             </figure>
             <figure>
-                <Image style={stilo}  src={nueve} alt="logo"></Image>
+                <Image style={stilo} width={60} height={35} src={nueve} alt="logo"></Image>
             </figure>
         </div>
       </div>

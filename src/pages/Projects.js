@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import juego from '@public/13.png'
-import arch from '@public/14.png'
-import quotes from '@public/15.png'
+const juego = 'https://i.postimg.cc/52mW0dJR/13.png'
+const arch = 'https://i.postimg.cc/BbjVckd4/14.png'
+const quotes = 'https://i.postimg.cc/W4tg3VrN/15.png'
 
 const Projects = () => {
   const pro = [
@@ -28,8 +28,6 @@ const Projects = () => {
   
   ];
   const stilo = {
-    width: '100px',
-    height: '100px',
     objectFit: 'cover',
   };
 
@@ -45,7 +43,7 @@ const Projects = () => {
               }} href={item.link}>
                 <div className="project">
                     <figure>
-                        <Image style={stilo} src={item.img} alt=""></Image>
+                        <Image style={stilo} width={100} height={100} src={item.img} alt="img"></Image>
                     </figure>
                     <div className="info">
                         <p className="etiqueta">&lt;h6&gt;</p>
