@@ -51,7 +51,7 @@ const About = () => {
         }
         @media (max-width: 600px) {
             .home {
-                margin: 0px 20px;
+                margin: 100px 20px 0 20px;
             }
             .info {
                 width: 200px;
