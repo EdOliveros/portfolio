@@ -60,10 +60,9 @@ const Projects = () => {
         .projects-container {
             width: 100%;
             padding: 0 90px;
-            position: absolute;
-            bottom: 220px;
             display: flex;
             flex-wrap: wrap;
+            margin-top: 100px;
         }
         .etiquetas {
           color: #44687B;

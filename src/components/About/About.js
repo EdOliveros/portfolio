@@ -28,8 +28,7 @@ const About = () => {
         <style jsx>{`
         .home {
             display: flex;
-            position: absolute;
-            bottom: 100px;
+            margin-top: 100px;
             margin-left: 50px;
         }
         .img {

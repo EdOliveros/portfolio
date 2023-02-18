@@ -6,8 +6,6 @@ const Menu = () => {
     <footer>
         <style>{`
             footer {
-                position: fixed;
-                top: 0;
                 padding: 10px;
                 width: 100%;
                 height: 60px;

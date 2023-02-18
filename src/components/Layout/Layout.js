@@ -5,9 +5,9 @@ import Menu from '../Menu/Menu'
 function Layout ({ children }) {
   return (
     <div>
-        <Header/>
-        { children }
         <Menu/>
+        { children }
+        <Header/>
     </div>
   )
 }
