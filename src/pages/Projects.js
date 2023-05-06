@@ -22,7 +22,13 @@ const Projects = () => {
 
     {
       name: "Quotes",
-      link: "https://edoliveros.github.io/Practica-Motivational-Quotes/",
+      link: "https://github.com/EdOliveros/Practica-Motivational-Quotes",
+      img: quotes,
+    },
+
+    {
+      name: "Portfolio",
+      link: "https://github.com/EdOliveros/portfolio",
       img: quotes,
     }
   
