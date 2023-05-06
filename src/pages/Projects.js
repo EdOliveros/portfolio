@@ -9,20 +9,20 @@ const Projects = () => {
   const pro = [
 
     {
-      name: "Juego-Canva",
-      link: "https://edoliveros.github.io/curso-taller-practico-javascript-juego/",
+      name: "Proyecto-Marvel",
+      link: "https://github.com/EdOliveros/Practica-Universe-Marvel",
       img: juego,
     },
 
     {
-      name: "Arch",
-      link: "https://edoliveros.github.io/Arch/",
+      name: "Eukariae",
+      link: "https://github.com/EdOliveros/Eukariae",
       img: arch,
     },
 
     {
       name: "Quotes",
-      link: "https://edoliveros.github.io/motivationalQuotes/index.html",
+      link: "https://edoliveros.github.io/Practica-Motivational-Quotes/",
       img: quotes,
     }
   
