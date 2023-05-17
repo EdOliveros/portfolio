@@ -64,14 +64,11 @@ const Projects = () => {
       <style jsx>{`
 
         .projects-container {
-            position: absolute;
-            bottom: 0;
             width: 100%;
-            height: 60vh;
             padding: 0 90px;
             display: flex;
             flex-wrap: wrap;
-            // margin: 100px 0 300px 0;
+            margin: 50px 0;
         }
         .etiquetas {
           color: #44687B;

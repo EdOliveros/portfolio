@@ -48,9 +48,7 @@ const Skills = () => {
         color: #44687B;
       }
       .skills-container {
-          position: absolute;
-          bottom: 110px;
-          margin-left: 80px;
+            margin: 100px 0 0 0;
       }
       .next {
           width: 80px;

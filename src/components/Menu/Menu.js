@@ -4,26 +4,6 @@ import React from 'react'
 const Menu = () => {
   return (
     <footer>
-        <style>{`
-            footer {
-                padding: 10px;
-                width: 100%;
-                height: 60px;
-                display: flex;
-                justify-content: end;
-                padding: 30px;
-            }
-            footer h1 {
-                font-weight: 300;
-                font-size: 14px;
-            }
-            @media (max-width: 600px) {
-              // footer {
-              //   height: auto;
-              //   padding: 0;
-              // }
-            }
-        `}</style>
         <h1>
         <Link style={{
           fontWeight: '300',
@@ -49,8 +29,22 @@ const Menu = () => {
           textDecoration: 'none',
           color: '#DBDBDB',
         }} href='/Contact' > CONTACT</Link>        
-        
         </h1>
+
+        <style>{`
+            footer {
+                padding: 10px;
+                width: 100%;
+                height: 10vh;
+                display: flex;
+                justify-content: end;
+                padding: 30px;
+            }
+            footer h1 {
+                font-weight: 300;
+                font-size: 14px;
+            }
+        `}</style>
     </footer>
   )
 }

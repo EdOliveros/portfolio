@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div>
+    <>
         <div className="p-container">
             <p className="etiquetas">&lt;p&gt;</p>
             <p className="email">edgarolimoy98@gmail.com</p>
@@ -26,7 +26,7 @@ const Contact = () => {
             color: #44687B;
         }
         `}</style>
-    </div>
+    </>
   )
 }
 

@@ -10,7 +10,7 @@ const Header = () => {
         <style jsx>{`
         .header {
           width: 100%;
-          height: 60px;
+          height: 10vh;
           display: flex;
           align-items: end;
           padding: 30px;
@@ -21,14 +21,14 @@ const Header = () => {
         .etiquetas {
           color: #44687B;
         }
-        @media(max-width: 400px) {
-          .header {
-              display: flex;
-              flex-direction: column;
-              align-items: start;
-              width: 100%;
-          }
-        }
+        // @media(max-width: 400px) {
+        //   .header {
+        //       display: flex;
+        //       flex-direction: column;
+        //       align-items: start;
+        //       width: 100%;
+        //   }
+        // }
         `}</style>
     </header>
   )
