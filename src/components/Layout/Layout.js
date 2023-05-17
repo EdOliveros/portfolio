@@ -4,11 +4,11 @@ import Menu from '../Menu/Menu'
 
 function Layout ({ children }) {
   return (
-    <div>
+    <>
         <Menu/>
         { children }
         <Header/>
-    </div>
+    </>
   )
 }
 

@@ -64,11 +64,14 @@ const Projects = () => {
       <style jsx>{`
 
         .projects-container {
+            position: absolute;
+            bottom: 0;
             width: 100%;
+            height: 60vh;
             padding: 0 90px;
             display: flex;
             flex-wrap: wrap;
-            margin-top: 100px;
+            // margin: 100px 0 300px 0;
         }
         .etiquetas {
           color: #44687B;
@@ -88,14 +91,11 @@ const Projects = () => {
             margin-right: 50px;
         }
 
-        @media (max-width: 600px) {
-          // .projects-container {
-          //   justify-content: center;
-          //   height: 100vh;
-          //   width: 100%;
-          //   margin: 60px 0 0 0;
-          // }
-        }
+        // @media (min-width: 600px) {
+        //   .projects-container {
+        //     margin: 100px 0 0 0;
+        //   }
+        // }
 
       `}</style>
     </div>
