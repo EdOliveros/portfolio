@@ -48,10 +48,10 @@ function Loading() {
               
               @keyframes travel {
                 0% {
-                  transform: translateZ(-4000px);
+                  transform: translateZ(-2800px);
                 }
                 100% {
-                  transform: translateZ(2000px);
+                  transform: translateZ(3200px);
                 }
               }
               
