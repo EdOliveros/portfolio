@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }) {
             setLoad(true)
             setGo(false)
           }}
-        >Get in...</button>
+        >Click Here...</button>
       </div>
 
       <style>{`
